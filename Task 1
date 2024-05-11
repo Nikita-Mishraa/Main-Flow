@@ -1,0 +1,52 @@
+#Task-1#
+
+'''Write a Python program to create a list, a dictionary, and a set. 
+Perform basic operations like adding, removing, and modifying elements.'''
+
+#Created a List#
+my_list = [10,20,30,40,50]
+
+#Created a Set#
+my_set = {10,20,30,40,50}
+
+#Created a Dictionary#
+my_dict = {'name': 'Nikita','age': 20,'state': 'Jharkhand','Year': 2}
+
+#Printing the Primary values#
+print("Original List:", my_list)
+print("Original Set:", my_set)
+print("Original Dictionary:", my_dict)
+
+#Performing_Basic_Operations#
+
+#Adding an element to the List#
+my_list.append(60)
+
+#Adding an element to the Set#
+my_set.add(70)
+
+#Adding a key-value pair from the Dictionary#
+my_dict['gender']= 'Female'
+
+#Removeing an element from the List#
+my_list.remove(20)
+
+#Removeing an element from the Set# 
+my_set.remove(40)
+
+#Removeing a key-value pair from the Dictionary# 
+del my_dict['state']
+
+#Modifying an element in the List#
+my_list[3]= 110
+
+#Modifying an element in the Set#
+my_set.update({82})
+
+#Modifying a value in the Dictionary# 
+my_dict['age'] = 21
+
+#Printing the Final values#
+print("Updated List:", my_list)
+print("Updated Set:", my_set) 
+print("Updated Dictionary:", my_dict) 
